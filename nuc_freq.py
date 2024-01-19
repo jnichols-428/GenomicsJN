@@ -42,7 +42,7 @@ num_c = nucleotides.count('C')
 num_g = nucleotides.count('G')
 num_t = nucleotides.count('T')
 num_n = nucleotides.count('N')
-length = nucleotides.count('A') +  nucleotides.count('C') + nucleotides.count('G') + nucleotides.count('T') + nucleotides.count('N')
+length = nucleotides.count('A') +  nucleotides.count('C') + nucleotides.count('G') + nucleotides.count('T')
 
 
 print ("Raw Counts")
@@ -61,5 +61,5 @@ print ("A: ", num_a/length)
 print ("C: ", num_c/length)
 print ("G: ", num_g/length)
 print ("T: ", num_t/length)
-print ("N: ", num_n/length)
+
 
