@@ -42,7 +42,8 @@ num_c = nucleotides.count('C')
 num_g = nucleotides.count('G')
 num_t = nucleotides.count('T')
 num_n = nucleotides.count('N')
-num_all = nucleotides.count('A'+'C'+'G'+'T'+'N')
+length = nucleotides.count('A') +  nucleotides.count('C') + nucleotides.count('G') + nucleotides.count('T') + nucleotides.count('N')
+
 
 print ("Raw Counts")
 print ("A: ", num_a)
@@ -50,19 +51,15 @@ print ("C: ", num_c)
 print ("G: ", num_g)
 print ("T: ", num_t)
 print ("N: ", num_n)
-print ("Length: ", num_all)
+print ("Length: ", length)
 
 
 ## Part 3
 ### TODO Print out the frequencies for each nucleotide in alphabetical order
 print ("NT Freq")
-print ("A: ", num_a/num_all)
-print ("C: ", num_c/num_all)
-print ("G: ", num_g/num_all)
-print ("T: ", num_t/num_all)
-print ("N: ", num_n/num_all)
+print ("A: ", num_a/length)
+print ("C: ", num_c/length)
+print ("G: ", num_g/length)
+print ("T: ", num_t/length)
+print ("N: ", num_n/length)
 
-
-## Part 5
-### TODO Use overlapping windows to count the dinucleotides. See the assignment for more information on overlapping windows.
-### TODO Print the frequencies for each of dinucleotides in alphabetical order
