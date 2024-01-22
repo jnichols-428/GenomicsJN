@@ -87,22 +87,48 @@ num_tt = nucleotides.count('TT')
 num_dint = (nucleotides.count('A') +  nucleotides.count('C') + nucleotides.count('G') + nucleotides.count('T')) - 1 
 
 print("DiNt Freq")
-num_aa = nucleotides.count('AA')/num_dint
-num_ac = nucleotides.count('AC')/num_dint
-num_ag = nucleotides.count('AG')/num_dint
-num_at = nucleotides.count('AT')/num_dint
-num_ca = nucleotides.count('CA')/num_dint
-num_cc = nucleotides.count('CC')/num_dint
-num_cg = nucleotides.count('CG')/num_dint
-num_ct = nucleotides.count('CT')/num_dint
-num_ga = nucleotides.count('GA')/num_dint
-num_gc = nucleotides.count('GC')/num_dint
-num_gg = nucleotides.count('GG')/num_dint
-num_gt = nucleotides.count('GT')/num_dint
-num_ta = nucleotides.count('TA')/num_dint
-num_tc = nucleotides.count('TC')/num_dint
-num_tg = nucleotides.count('TG')/num_dint
-num_tt = nucleotides.count('TT')/num_dint
+freq_aa = nucleotides.count('AA')/num_dint
+freq_ac = nucleotides.count('AC')/num_dint
+freq_ag = nucleotides.count('AG')/num_dint
+freq_at = nucleotides.count('AT')/num_dint
+freq_ca = nucleotides.count('CA')/num_dint
+freq_cc = nucleotides.count('CC')/num_dint
+freq_cg = nucleotides.count('CG')/num_dint
+freq_ct = nucleotides.count('CT')/num_dint
+freq_ga = nucleotides.count('GA')/num_dint
+freq_gc = nucleotides.count('GC')/num_dint
+freq_gg = nucleotides.count('GG')/num_dint
+freq_gt = nucleotides.count('GT')/num_dint
+freq_ta = nucleotides.count('TA')/num_dint
+freq_tc = nucleotides.count('TC')/num_dint
+freq_tg = nucleotides.count('TG')/num_dint
+freq_tt = nucleotides.count('TT')/num_dint
 
- 
+print ("AA ", freq_aa)
+print ("AC ", freq_ac)
+print ("AG ", freq_ag)
+print ("AT ", freq_at)
+print ("CA ", freq_ca)
+print ("CC ", freq_cc)
+print ("CG ", freq_cg)
+print ("CT ", freq_ct)
+print ("GA ". freq_ga)
+print ("GC ". freq_gc)
+print ("GG ". freq_gg)
+print ("GT ". freq_gt)
+print ("TA ". freq_ta)
+print ("TC ". freq_tc)
+print ("TG ". freq_tg)
+print ("TT ". freq_tt)
+
+
+
+
+
+
+
+
+
+
+
 
